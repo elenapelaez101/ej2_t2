@@ -10,7 +10,9 @@ def mayus (lista):
         new.append(cap)
     return new
 def mods(listi):
-    listi[0][-1].append("...")
+    listi[0] = listi[0]+"..."
+    for l in listi[1:]:
+        l = l +"."
     print(listi)
 
         
